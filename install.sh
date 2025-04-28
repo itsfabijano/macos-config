@@ -1,10 +1,17 @@
 #!/usr/bin/env bash
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+  echo "Oh My Zsh is not installed. Installing..."
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+else
+  echo "Oh My Zsh is already installed."
+fi
 
 sh ./packages.sh packages.txt
 
-stow zsh ripgrep aerospace ghostty
+git submodule update --init --recursive
+
+stow zsh ripgrep aerospace ghostty nvim
 
 # Settings for Aerospace
 # Group MissionControl windows by application
