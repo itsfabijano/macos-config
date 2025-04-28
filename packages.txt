@@ -1,0 +1,20 @@
+# Homebrew packages
+git
+wget
+neovim
+ripgrep
+# tmux -v -s --HEAD
+fzf
+tree
+bat
+stow
+fd
+jesseduffield/lazygit/lazygit
+
+# Homebrew cask
+cask:nikitabobko/tap/aerospace
+
+# Zsh plugins
+zsh:https://github.com/zsh-users/zsh-autosuggestions.git
+zsh:https://github.com/zsh-users/zsh-syntax-highlighting.git
+

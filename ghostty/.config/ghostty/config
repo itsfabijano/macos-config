@@ -1,0 +1,18 @@
+# The syntax is "key = value". The whitespace around the
+# equals doesn't matter.
+background = 000000
+cursor-style = block
+shell-integration-features = no-cursor
+# macos-titlebar-style = transparent
+macos-titlebar-style = tabs
+window-theme = ghostty
+
+# Comments start with a `#` and are only valid on their own line.
+# Blank lines are ignored!
+
+macos-option-as-alt = true
+font-size = 13
+# adjust-cell-width = "-10%"
+# adjust-cell-height = "11%"
+# font-thicken = true
+title = " "
