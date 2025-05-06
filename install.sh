@@ -20,3 +20,5 @@ defaults write com.apple.dock expose-group-apps -bool true && killall Dock
 # Move windows by holding ctrl+cmd
 defaults write -g NSWindowShouldDragOnGesture -bool true
 
+git submodule update --remote --recursive
+
