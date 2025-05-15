@@ -7,6 +7,8 @@ shell-integration-features = no-cursor
 macos-titlebar-style = tabs
 window-theme = ghostty
 term=xterm-256color
+background-opacity = 0.85
+background-blur = 1
 
 # Comments start with a `#` and are only valid on their own line.
 # Blank lines are ignored!
