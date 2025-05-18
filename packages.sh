@@ -33,7 +33,7 @@ while IFS= read -r line || [[ -n "$line" ]]; do
 
   if [[ "$line" == cask:* ]]; then
     pkg="${line#cask:}"
-    formula_name="${full_name##*/}"
+    formula_name="${pkg##*/}"
     if brew list --cask --versions "$formula_name" >/dev/null 2>&1; then
       echo "Cask '$pkg' already installed, skipping."
     else

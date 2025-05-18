@@ -10,10 +10,15 @@ bat
 stow
 fd
 jesseduffield/lazygit/lazygit
+nvm
+go
 
 # Homebrew cask
 cask:nikitabobko/tap/aerospace
 cask:utm
+cask:displaylink
+cask:ghostty
+cask:raycast
 
 # Zsh plugins
 zsh:https://github.com/zsh-users/zsh-autosuggestions.git
