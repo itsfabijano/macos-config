@@ -19,6 +19,7 @@ cask:utm
 cask:displaylink
 cask:ghostty
 cask:raycast
+cask:xquartz
 
 # Zsh plugins
 zsh:https://github.com/zsh-users/zsh-autosuggestions.git
