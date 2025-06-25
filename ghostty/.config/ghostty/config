@@ -3,12 +3,13 @@
 background = 000000
 cursor-style = block
 shell-integration-features = no-cursor
-macos-titlebar-style = hidden
-# macos-titlebar-style = tabs
+macos-titlebar-style = tabs
+macos-non-native-fullscreen = visible-menu
 window-theme = ghostty
 term=xterm-256color
 background-opacity = 0.85
 background-blur = 1
+mouse-hide-while-typing = true
 
 # Comments start with a `#` and are only valid on their own line.
 # Blank lines are ignored!
