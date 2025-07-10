@@ -10,7 +10,7 @@ bat
 stow
 fd
 jesseduffield/lazygit/lazygit
-nvm
+node
 go
 
 # Homebrew cask

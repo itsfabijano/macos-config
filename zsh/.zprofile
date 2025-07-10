@@ -5,10 +5,9 @@ export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
 
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 export PATH="$PATH:$HOME/.dotfiles/bin"
-
-source $(brew --prefix nvm)/nvm.sh
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH

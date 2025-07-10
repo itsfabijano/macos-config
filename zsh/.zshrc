@@ -99,10 +99,6 @@ ZSH_DISABLE_COMPFIX=true
 source $ZSH/oh-my-zsh.sh
 source $HOME/.config/zsh/aliases.sh
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 export LANG=en_US.UTF-8
 
