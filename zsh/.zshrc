@@ -103,7 +103,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=60'
 export LANG=en_US.UTF-8
 
 source $HOME/.config/zsh/fzf.sh
-source $HOME/.config/zsh/bindings.sh
+# source $HOME/.config/zsh/bindings.sh
 
 # User configuration
 
