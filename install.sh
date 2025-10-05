@@ -30,7 +30,7 @@ fi
 
 git submodule update --init --recursive
 
-stow -t ~/ zsh ripgrep aerospace ghostty nvim
+stow -t ~/ zsh ripgrep aerospace ghostty nvim ssh
 
 # Settings for Aerospace
 # Group MissionControl windows by application
