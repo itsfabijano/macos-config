@@ -12,7 +12,6 @@ fd
 jesseduffield/lazygit/lazygit
 node
 go
-lima
 
 # Homebrew cask
 cask:nikitabobko/tap/aerospace
