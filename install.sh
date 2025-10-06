@@ -28,9 +28,11 @@ if [ "$installOnly" = true ]; then
     exit 0
 fi
 
+stow -t ~/ ssh
+
 git submodule update --init --recursive
 
-stow -t ~/ zsh ripgrep aerospace ghostty nvim ssh
+stow -t ~/ zsh ripgrep aerospace ghostty nvim
 
 # Settings for Aerospace
 # Group MissionControl windows by application
