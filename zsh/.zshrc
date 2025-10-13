@@ -84,6 +84,7 @@ plugins=(
 	git
 	zsh-autosuggestions
 	fzf
+    zsh-syntax-highlighting
 )
 
 # autoload -Uz compinit bashcompinit
