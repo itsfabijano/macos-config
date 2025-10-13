@@ -1,6 +1,3 @@
-source $HOME/.config/zsh/helpers.sh
-
-include $HOME/.zshrc_before
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -87,12 +84,11 @@ plugins=(
 	git
 	zsh-autosuggestions
 	fzf
-    zsh-syntax-highlighting
 )
 
-autoload -Uz compinit bashcompinit
-compinit
-bashcompinit
+# autoload -Uz compinit bashcompinit
+# compinit
+# bashcompinit
 # autoload -U +X bashcompinit && bashcompinit
 
 ZSH_DISABLE_COMPFIX=true
@@ -130,6 +126,3 @@ source $HOME/.config/zsh/fzf.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#
-#
-include $HOME/.zshrc_after
