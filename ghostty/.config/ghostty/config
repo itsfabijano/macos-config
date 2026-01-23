@@ -10,11 +10,11 @@ term=xterm-256color
 background-opacity = 0.85
 background-blur = 1
 mouse-hide-while-typing = true
+macos-option-as-alt = false
 
 # Comments start with a `#` and are only valid on their own line.
 # Blank lines are ignored!
 
-macos-option-as-alt = true
 font-size = 13
 # adjust-cell-width = "-10%"
 # adjust-cell-height = "11%"
